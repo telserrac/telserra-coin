@@ -1,5 +1,3 @@
-![divoty-02](https://cloud.githubusercontent.com/assets/28779523/26739442/74c1e294-47ef-11e7-9b13-608c94592b4b.png)
-
 Coin Specifications
 ===========================
 
