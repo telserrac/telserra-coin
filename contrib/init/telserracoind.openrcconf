@@ -1,0 +1,26 @@
+# /etc/conf.d/telserracoind: config file for /etc/init.d/telserracoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/telserracoin/telserracoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/telserracoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/telserracoind.pid"
+
+# Where to write telserracoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/telserracoind"
+
+# User and group to own telserracoind process
+#BITCOIND_USER="telserracoin"
+#BITCOIND_GROUP="telserracoin"
+
+# Path to telserracoind executable
+#BITCOIND_BIN="/usr/bin/telserracoind"
+
+# Nice value to run telserracoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

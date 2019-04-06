@@ -1,0 +1,36 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/telserracoin_bg.qm</file>
+        <file alias="ca">locale/telserracoin_ca.qm</file>
+        <file alias="cs">locale/telserracoin_cs.qm</file>
+        <file alias="da">locale/telserracoin_da.qm</file>
+        <file alias="de">locale/telserracoin_de.qm</file>
+        <file alias="en">locale/telserracoin_en.qm</file>
+        <file alias="en_US">locale/telserracoin_en_US.qm</file>
+        <file alias="eo">locale/telserracoin_eo.qm</file>
+        <file alias="es">locale/telserracoin_es.qm</file>
+        <file alias="es_ES">locale/telserracoin_es_ES.qm</file>
+        <file alias="fi">locale/telserracoin_fi.qm</file>
+        <file alias="fr_FR">locale/telserracoin_fr_FR.qm</file>
+        <file alias="hi_IN">locale/telserracoin_hi_IN.qm</file>
+        <file alias="hr">locale/telserracoin_hr.qm</file>
+        <file alias="hr_HR">locale/telserracoin_hr_HR.qm</file>
+        <file alias="it">locale/telserracoin_it.qm</file>
+        <file alias="ja">locale/telserracoin_ja.qm</file>
+        <file alias="ko_KR">locale/telserracoin_ko_KR.qm</file>
+        <file alias="lt_LT">locale/telserracoin_lt_LT.qm</file>
+        <file alias="nl">locale/telserracoin_nl.qm</file>
+        <file alias="pl">locale/telserracoin_pl.qm</file>
+        <file alias="pt">locale/telserracoin_pt.qm</file>
+        <file alias="pt_BR">locale/telserracoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/telserracoin_ro_RO.qm</file>
+        <file alias="ru">locale/telserracoin_ru.qm</file>
+        <file alias="sk">locale/telserracoin_sk.qm</file>
+        <file alias="sv">locale/telserracoin_sv.qm</file>
+        <file alias="tr">locale/telserracoin_tr.qm</file>
+        <file alias="uk">locale/telserracoin_uk.qm</file>
+        <file alias="vi">locale/telserracoin_vi.qm</file>
+        <file alias="zh_CN">locale/telserracoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/telserracoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

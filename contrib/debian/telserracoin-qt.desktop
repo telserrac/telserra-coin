@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=TelSerraCoin
+Comment=TelSerraCoin P2P Cryptocurrency
+Comment[fr]=TelSerraCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=TelSerraCoin, eşten eşe kriptografik sanal para birimi
+Exec=telserracoin-qt %u
+Terminal=false
+Type=Application
+Icon=telserracoin128
+MimeType=x-scheme-handler/telserracoin;
+Categories=Office;Finance;

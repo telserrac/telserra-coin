@@ -1,0 +1,26 @@
+[Unit]
+Description=TelSerraCoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=telserracoin
+Group=telserracoin
+
+Type=forking
+PIDFile=/var/lib/telserracoind/telserracoind.pid
+
+ExecStart=/usr/bin/telserracoind -daemon -pid=/var/lib/telserracoind/telserracoind.pid \
+          -conf=/etc/telserracoin/telserracoin.conf -datadir=/var/lib/telserracoind
+
+ExecStop=-/usr/bin/telserracoin-cli -conf=/etc/telserracoin/telserracoin.conf \
+         -datadir=/var/lib/telserracoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
